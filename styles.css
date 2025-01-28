@@ -1,0 +1,29 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white; 
+}
+
+/* Clock Container */
+.clock {
+    background: linear-gradient(145deg, #2a2a2a, #3e3e3e);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+/* Time Display */
+#time {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    color: #00ff99;
+    text-shadow: 0px 3px 5px rgba(0, 255, 153, 0.7);
+}
